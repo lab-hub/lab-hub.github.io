@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Lab Hub | About
-# title: Lab Hub | О проекте
+title: О проекте
 ---
 # About page
 
