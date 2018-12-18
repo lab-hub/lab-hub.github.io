@@ -1,0 +1,13 @@
+---
+title: Labs
+---
+<h1>Labs</h1>
+
+<ul>
+  {% for lab in site.labs %}
+    <li>
+      <h2><a href="{{ lab.url }}">{{ lab.name }}</a></h2>
+      <p>{{ lab.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
